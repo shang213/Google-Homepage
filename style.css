@@ -33,3 +33,88 @@ body{
     opacity: 0.60;
     text-decoration: none;
 }
+
+.googlelogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 125px;
+    padding-bottom: 50px;
+}
+
+#input{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    height: 35px;
+    width: 400px;
+
+}
+
+button{
+    border: .5px;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+    background: rgb(224,224,224);
+    width: 120px;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: center;
+}
+
+.search_button a, .search_button a:visited{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    text-decoration:none;
+    display:flex;
+    color: #000;
+}
+
+.search_buttons{
+    width: 487px;
+    margin: 0 auto;
+    padding-top: 18px;
+    display:flex;
+    justify-content: center;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height: 30px;
+    background: rgb(244, 244, 244);
+    border-top: 1px solid #e4e4e4;
+    padding-top: 5px;
+}
+
+#left-bottom{
+    position: absolute;
+    left:-15px;
+    bottom:1px;
+    padding-right: 10px;
+}
+
+#right-bottom{
+    position: absolute;
+    right: 20px;
+    bottom:1px;
+}
+
+.lower a, .lower a:visited{
+    text-decoration: none;
+    color: #000;
+    padding-right: 15px;
+}
+
+.lower a:hover{
+    text-decoration: underline;
+    opacity: 0.60;
+}
